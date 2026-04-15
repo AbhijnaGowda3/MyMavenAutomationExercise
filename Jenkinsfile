@@ -13,7 +13,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/AbhijnaGowda3/MyMavenAutomationExercise.git'
+                git branch: 'main', url: 'https://github.com/AbhijnaGowda3/MyMavenAutomationExercise.git'
             }
         }
 
